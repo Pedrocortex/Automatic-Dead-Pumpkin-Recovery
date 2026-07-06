@@ -1,4 +1,4 @@
-"""
+e"""
 Automatic Dead Pumpkin Recovery
 Copyright (c) 2026 Pedro Cortez
 
