@@ -1,6 +1,5 @@
-# README
+# Automatic Dead Pumpkin Recovery
 
-Automatic Dead Pumpkin Recovery
 
 ## Purpose
 
