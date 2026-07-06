@@ -1,7 +1,7 @@
 # Automatic Dead Pumpkin Recovery
 
 
-## Purpose
+# Purpose
 
 This repository was created as a programming exercise to practice automation, algorithm design, and problem solving within the scripting environment of The Farmer Was Replaced.
 Overview
