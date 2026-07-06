@@ -2,7 +2,7 @@ README
 
 Automatic Dead Pumpkin Recovery
 
-Purpose
+## Purpose
 
 This repository was created as a programming exercise to practice automation, algorithm design, and problem solving within the scripting environment of The Farmer Was Replaced.
 Overview
@@ -11,7 +11,7 @@ This project is an automation script for The Farmer Was Replaced that manages a 
 
 The algorithm first initializes the farm by planting pumpkins across the entire field. It then scans the map, records the coordinates of every dead pumpkin, and revisits those locations until all damaged crops have been successfully restored.
 
-Features
+## Features
 
 Automatic pumpkin planting.
 
@@ -29,7 +29,7 @@ Automatic watering and replanting until recovery.
 
 How It Works
 
-1. Farm Initialization
+## 1. Farm Initialization
 
 The start() function traverses the entire farm.
 
@@ -41,7 +41,7 @@ Otherwise, the current crop is harvested and replaced with a new pumpkin.
 
 The traversal follows a serpentine movement pattern to efficiently cover every tile.
 
-2. Dead Pumpkin Detection
+## 2. Dead Pumpkin Detection
 
 The noDeadP() function scans the farm looking for dead pumpkins.
 
@@ -53,7 +53,7 @@ Its Y coordinate is stored.
 
 An immediate recovery attempt is performed by watering and replanting.
 
-3. Recovery Process
+## 3. Recovery Process
 
 After the scan is complete, the script revisits every recorded position.
 
@@ -67,7 +67,7 @@ Otherwise, the script continues watering and replanting until the pumpkin become
 
 The process repeats until no recorded dead pumpkins remain.
 
-Algorithms and Concepts
+## Algorithms and Concepts
 
 This project demonstrates the use of:
 
