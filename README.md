@@ -1,6 +1,5 @@
 # Automatic Dead Pumpkin Recovery
 
-
 # Purpose
 
 This repository was created as a programming exercise to practice automation, algorithm design, and problem solving within the scripting environment of The Farmer Was Replaced.
@@ -9,6 +8,10 @@ Overview
 This project is an automation script for The Farmer Was Replaced that manages a pumpkin farm and automatically restores dead pumpkins.
 
 The algorithm first initializes the farm by planting pumpkins across the entire field. It then scans the map, records the coordinates of every dead pumpkin, and revisits those locations until all damaged crops have been successfully restored.
+
+# Problem 
+
+A giant pumpkin is created only when every pumpkin within a square has fully grown. However, each fully grown pumpkin has a 20% chance of dying, leaving behind a Dead Pumpkin that prevents the giant pumpkin from forming.
 
 ## Features
 
@@ -85,6 +88,10 @@ Fault detection and recovery
 Files
 
 main.py — Main automation script.
+
+## Demo
+
+https://github.com/user-attachments/assets/0eb85b0b-28ef-46e5-9056-a7fe224e52fe
 
 ## License
 
